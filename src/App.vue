@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <HeaderComponet />
     <v-main>
       <HelloWorld />
     </v-main>
