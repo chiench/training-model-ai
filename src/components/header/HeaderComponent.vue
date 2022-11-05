@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="#424242" dark>
+  <v-app-bar height="100" app color="#424242" dark>
     <div style="width: 100%" class="d-flex justify-center align-center">
       <v-img
         alt="AI Logo"
@@ -7,11 +7,11 @@
         contain
         src="../../assets/openai-avatar.png"
         transition="scale-transition"
-        width="40"
+        width="60"
       />
 
-      <span class="h6 text-uppercase font-weight-medium mr-2"
-        >Predic Netword</span
+      <span class="text-h5 text-uppercase font-weight-medium mr-2">
+        <strong>Predic Network </strong></span
       >
     </div>
   </v-app-bar>
